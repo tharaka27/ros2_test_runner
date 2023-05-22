@@ -16,5 +16,6 @@
     "pre_commands" : [
         "cd /home/ros/ws_moveit ", 
         ". install/setup.sh "
-    ]
+    ],
+    "output_file" : "example.txt"
 }

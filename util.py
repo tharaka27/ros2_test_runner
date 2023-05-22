@@ -45,7 +45,7 @@ class PackageRunner:
         for i in range(numPackages):
             thread = threading.Thread(target=self.launch_package, args=(i,))
             thread.start()
-            time.sleep(2)
+            time.sleep(3)
             self.thread_list.append(thread)
 
         for i in range(numPackages):
@@ -68,7 +68,7 @@ class PackageRunner:
             self.subprocess_list.append(process)
             if package.isLeader():
                 try:
-                    with open("example.txt", 'w') as file:
+                    with open(self.config["output_file"], 'w') as file:
                         for line in process.stdout:
                             print(line, end='') # process line here
                             if self.config["terminate"] in line:

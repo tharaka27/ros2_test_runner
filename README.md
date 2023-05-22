@@ -42,7 +42,7 @@ You need to log checkpoint and terminate string from as RCL_INFO.
 
 When the "checkpoint" keyword is encountered in the stdout, the statistics collection process records a timestamp in the statistics collection file, signifying the occurrence of this event.
 
-## Terminate
+#### Terminate
 
 The "terminate" keyword is utilized to signal the end of a current run and initiate a new run in the statistics collection process. 
 

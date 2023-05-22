@@ -5,7 +5,7 @@ import threading
 import os
 
 class Package:
-    def __init_(self, name: str, launch: str, leader=False):
+    def __init__(self, name: str, launch: str, leader=False):
         self.package_name = name
         self.launch_file = launch
         self.leader = leader
@@ -20,10 +20,11 @@ class PackageRunner:
     def __init__(self):
         self.name = ""
         self.package_list = []
-        self.pre_process_commands = ["cd /home/ros/ws_moveit ", "source install/setup.bash "]
+        self.pre_process_commands = ["cd /home/ros/ws_moveit ", ". install/setup.sh "]
         self.subprocess_list = []
         self.is_leader_dead = False
         self.thread_list = []
+        self.lock = threading.Lock()
     
     def addPackage(self, package: Package):
         self.package_list.append(package)
@@ -39,10 +40,11 @@ class PackageRunner:
     def run(self):
         signal.signal(signal.SIGINT, self.signal_handler)
 
-        numPackages = len(self.subprocess_list)
+        numPackages = len(self.package_list)
         for i in range(numPackages):
-            thread = threading.Thread(target=self.launch_package, args=i)
+            thread = threading.Thread(target=self.launch_package, args=(i,))
             thread.start()
+            time.sleep(2)
             self.thread_list.append(thread)
 
         for i in range(numPackages):
@@ -58,8 +60,8 @@ class PackageRunner:
     def _launch_package(self, package: Package):
         command = "&& ".join(self.pre_process_commands)
         command = f"{command} && {package.getRunCommand()}" 
-        
-        with subprocess.Popen(command,shell=True, stdout=subprocess.PIPE, \
+
+        with subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, \
                             stderr=subprocess.STDOUT, bufsize=1, universal_newlines=True,\
                                 preexec_fn=os.setsid) as process:
             self.subprocess_list.append(process)
@@ -71,7 +73,8 @@ class PackageRunner:
                             if "[terminate]" in line:
                                 print("Killing Leader")
                                 os.killpg(os.getpgid(process.pid), signal.SIGTERM)
-                                self.is_leader_dead = True
+                                with self.lock:
+                                    self.is_leader_dead = True
                             if "[checkpoint]" in line:
                                 print("checkpoint reached")
                                 file.write(line)
@@ -82,6 +85,7 @@ class PackageRunner:
             else:
                 for line in process.stdout:
                     print(line, end='') # process line here
-                    if self.is_leader_dead:
-                        print("Killing Follower")
-                        os.killpg(os.getpgid(process.pid), signal.SIGTERM)
+                    with self.lock:
+                        if self.is_leader_dead:
+                            print("Killing Follower")
+                            os.killpg(os.getpgid(process.pid), signal.SIGTERM)

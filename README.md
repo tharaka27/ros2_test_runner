@@ -27,8 +27,8 @@ This Python package provides a convenient way to run ROS2 programs multiple time
             "leader" : true
         }
     ],
-    "checkpoint" : "[checkpoint]",
-    "terminate" : "[terminate]",
+    "checkpoint" : "<place_your_checkpoint_log_string_here>",
+    "terminate" : "<place_your_terminate_log_string_here>",
     "pre_commands" : [
         "cd /home/ros/ws_moveit ", 
         ". install/setup.sh "
@@ -36,7 +36,16 @@ This Python package provides a convenient way to run ROS2 programs multiple time
 }
 ```
 
-You need to log checkpoint and terminate string from as RCL_INFO 
+You need to log checkpoint and terminate string from as RCL_INFO.
+
+#### Checkpoint
+
+When the "checkpoint" keyword is encountered in the stdout, the statistics collection process records a timestamp in the statistics collection file, signifying the occurrence of this event.
+
+## Terminate
+
+The "terminate" keyword is utilized to signal the end of a current run and initiate a new run in the statistics collection process. 
+
 
 2. Then run the runner.py
 

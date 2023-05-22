@@ -17,14 +17,15 @@ class Package:
         return self.leader
     
 class PackageRunner:
-    def __init__(self):
+    def __init__(self, config: dict):
         self.name = ""
         self.package_list = []
-        self.pre_process_commands = ["cd /home/ros/ws_moveit ", ". install/setup.sh "]
+        self.pre_process_commands = config["pre_commands"] #["cd /home/ros/ws_moveit ", ". install/setup.sh "]
         self.subprocess_list = []
         self.is_leader_dead = False
         self.thread_list = []
         self.lock = threading.Lock()
+        self.config = config
     
     def addPackage(self, package: Package):
         self.package_list.append(package)
@@ -70,12 +71,12 @@ class PackageRunner:
                     with open("example.txt", 'w') as file:
                         for line in process.stdout:
                             print(line, end='') # process line here
-                            if "[terminate]" in line:
+                            if self.config["terminate"] in line:
                                 print("Killing Leader")
                                 os.killpg(os.getpgid(process.pid), signal.SIGTERM)
                                 with self.lock:
                                     self.is_leader_dead = True
-                            if "[checkpoint]" in line:
+                            if self.config["checkpoint"] in line:
                                 print("checkpoint reached")
                                 file.write(line)
                     print("File written successfully.")

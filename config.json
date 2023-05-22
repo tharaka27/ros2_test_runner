@@ -1,0 +1,20 @@
+{
+    "packages":[
+        {
+            "name" : "panda_moveit_config",
+            "launch" : "moveit.launch.py",
+            "leader" : false
+        },
+        {
+            "name" : "paper_benchmarks",
+            "launch" : "benchmark_asynchronous.launch.py",
+            "leader" : true
+        }
+    ],
+    "checkpoint" : "[checkpoint]",
+    "terminate" : "[terminate]",
+    "pre_commands" : [
+        "cd /home/ros/ws_moveit ", 
+        ". install/setup.sh "
+    ]
+}

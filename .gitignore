@@ -1,0 +1,34 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Environment and virtual environment files
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.idea/
+.vscode/
+
+# Dependency directories
+dist/
+build/
+*.egg-info/
+
+# Log files
+*.log
+
+# Other generated files
+*.pyo
+*.swp
+*.swo
+*.bak
+
+# Miscellaneous
+.DS_Store
+*.pydevproject
+*.pyc

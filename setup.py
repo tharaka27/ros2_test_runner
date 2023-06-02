@@ -1,9 +1,14 @@
 from setuptools import setup, find_packages
 import os
+import codecs
 
-VERSION = '0.0.1'
+here = os.path.abspath(os.path.dirname(__file__))
+
+with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
+    long_description = "\n" + fh.read()
+
+VERSION = '0.0.2'
 DESCRIPTION = 'A python package to conveniently collect statistics data in ros2'
-LONG_DESCRIPTION = 'A package that provides a convenient way to run ROS2 programs multiple times and collect timing and other statistics. It can be used to analyze the performance and behavior of ROS2 systems.'
 
 # Setting up
 setup(
@@ -13,7 +18,7 @@ setup(
     author_email="<tharakasachintha27@gmail.com>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
+    long_description=long_description,
     packages=find_packages(),
     install_requires=[],
     keywords=['python', 'ros2', 'humble', 'launch'],

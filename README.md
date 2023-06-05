@@ -15,24 +15,77 @@ This Python package provides a convenient way to run ROS2 programs multiple time
 
 ```json
 {
-    "packages":[
+    "testcases" :
+    [
         {
-            "name" : "panda_moveit_config",
-            "launch" : "moveit.launch.py",
-            "leader" : false
+            "name" : "testcase_baseline",
+            "numberOfInvocations": 2,
+            "packages":[
+                {
+                    "name" : "panda_moveit_config",
+                    "launch" : "moveit.launch.py",
+                    "leader" : false
+                },{
+                    "name" : "paper_benchmarks",
+                    "launch" : "benchmark_baseline.launch.py",
+                    "leader" : true
+                }
+            ],
+            "checkpoint" : "[checkpoint]",
+            "terminate" : "[terminate]",
+            "askToTerminate" : "source_frame - frame does not exist",
+            "pre_commands" : [
+                "cd /home/ros/ws_moveit ",
+                ". install/setup.sh "
+            ]
         },
         {
-            "name" : "paper_benchmarks",
-            "launch" : "benchmark_asynchronous.launch.py",
-            "leader" : true
+            "name" : "testcase_asynchronous",
+            "numberOfInvocations": 2,
+            "packages":[
+                {
+                    "name" : "panda_moveit_config",
+                    "launch" : "moveit.launch.py",
+                    "leader" : false
+                },{
+                    "name" : "paper_benchmarks",
+                    "launch" : "benchmark_asynchronous.launch.py",
+                    "leader" : true
+                }
+            ],
+            "checkpoint" : "[checkpoint]",
+            "terminate" : "[terminate]",
+            "askToTerminate" : "source_frame - frame does not exist",
+            "pre_commands" : [
+                "cd /home/ros/ws_moveit ",
+                ". install/setup.sh "
+            ]
+        },
+        {
+            "name" : "testcase_synchronous",
+            "numberOfInvocations": 2,
+            "packages":[
+                {
+                    "name" : "panda_moveit_config",
+                    "launch" : "moveit.launch.py",
+                    "leader" : false
+                },{
+                    "name" : "paper_benchmarks",
+                    "launch" : "benchmark_synchronous.launch.py",
+                    "leader" : true
+                }
+            ],
+            "checkpoint" : "[checkpoint]",
+            "terminate" : "[terminate]",
+            "askToTerminate" : "source_frame - frame does not exist",
+            "pre_commands" : [
+                "cd /home/ros/ws_moveit ",
+                ". install/setup.sh "
+            ]
         }
+
     ],
-    "checkpoint" : "<place_your_checkpoint_log_string_here>",
-    "terminate" : "<place_your_terminate_log_string_here>",
-    "pre_commands" : [
-        "cd /home/ros/ws_moveit ", 
-        ". install/setup.sh "
-    ]
+    "output_file" : "example.txt"
 }
 ```
 

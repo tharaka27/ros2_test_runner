@@ -1,36 +1,31 @@
-#from util import Package
 from package import Package
 from testcase import Testcase
-#from util import PackageRunner
+from packagerunner import PackageRunner
 import json
 import time
+from typing import List
+from logger import Logger
 
 def main():
 
     with open('config copy.json', 'r') as file:
         config = json.load(file)
 
-    package_list = []
+    testcase_list : List[Testcase] = []
 
-    #for package in config["packages"]:
-    #    package_list.append(Package(**package))
-
-    #print (json.dumps(config, sort_keys=True, indent=4))
-
-    # runner = PackageRunner(config)
+    logger = Logger(f"logs/LogFile_{int(time.time())}.txt")
 
     for testcase in config["testcases"]:
         testcase = Testcase(**testcase)
-            
-     
-    # for package in package_list:
-    #     runner.addPackage(package)
-    
-    # #for i in range(config["numberOfInvocations"]):
-    # runner.run()
-    # time.sleep(10)
+        testcase_list.append(testcase)
         
-    # print("Processes terminated")
+    for testcase in testcase_list:
+        logger.log("================================================================\n")
+        logger.log(f"Starting {str(testcase)}" )
 
+        runner = PackageRunner(testcase, logger)
+        runner.run()
+    
+    
 if __name__ == '__main__':
     main()

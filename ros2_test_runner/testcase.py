@@ -32,4 +32,4 @@ class Testcase:
         return self.pre_commands
     
     def __str__(self) -> str:
-        return f"{self.name} testcase with {self.numberOfInvocations} number of invocations"
+        return f"{self.name} with {self.numberOfInvocations} number of invocations"

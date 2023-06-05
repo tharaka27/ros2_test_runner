@@ -6,23 +6,29 @@ import os
 import queue
 import sys
 from package import Package
+from testcase import Testcase
+from logger import Logger
+from typing import List
 
     
 class PackageRunner:
-    def __init__(self, config: dict):
-        self.name = ""
-        self.package_list = []
-        self.pre_process_commands = config["pre_commands"]
+    def __init__(self, testcase : Testcase, logger:Logger):
+        self.pre_process_commands = testcase.getPrecommands()
+        self.numberOfInvocations = testcase.getNumberOfInvocations()
+        self.terminate = testcase.getTerminate()
+        self.checkpoint = testcase.getCheckpoint()
+        self.askToTerminate = testcase.getAskToTerminate()
         self.subprocess_list = {}
         self.thread_list = []
         self.lock = threading.Lock()
-        self.config = config
         self.queue = queue.Queue()
         self.is_shutdown = False
         self.supervisor_thread = None
-
-    def addPackage(self, package: Package):
-        self.package_list.append(package)
+        self.package_list : List[Package] = []
+        self.logger = logger
+        for package in testcase.getPackages():
+            self.package_list.append(package)
+        
 
     def signal_handler(self, sig, frame):
         print("SIGINT raised")
@@ -35,25 +41,29 @@ class PackageRunner:
 
     def run(self):
         # set signal handler
-        signal.signal(signal.SIGINT, self.signal_handler)
 
-        # create threads for each process
-        for i in range(len(self.package_list)):
-            thread = threading.Thread(target=self._launch_package, args=(i,))
-            thread.start()
-            time.sleep(3)
-            self.thread_list.append(thread)
+        for invocation in range(self.numberOfInvocations):
+            self.logger.log(f"starting invocation {invocation+1}/{self.numberOfInvocations}")
+        
+            signal.signal(signal.SIGINT, self.signal_handler)
 
-        # start the execution of the supervisor thread
-        self.supervisor_thread = threading.Thread(target=self._launch_supervisor)
-        self.supervisor_thread.start()
+            # create threads for each process
+            for i in range(len(self.package_list)):
+                thread = threading.Thread(target=self._launch_package, args=(i,))
+                thread.start()
+                time.sleep(3)
+                self.thread_list.append(thread)
 
-        # wait till all the threads are joined
-        for i in range(len(self.thread_list)):
-            self.thread_list[i].join()
+            # start the execution of the supervisor thread
+            self.supervisor_thread = threading.Thread(target=self._launch_supervisor)
+            self.supervisor_thread.start()
 
-        # wait till the supervisor is joined
-        self.supervisor_thread.join()
+            # wait till all the threads are joined
+            for i in range(len(self.thread_list)):
+                self.thread_list[i].join()
+
+            # wait till the supervisor is joined
+            self.supervisor_thread.join()
 
         
     def _launch_supervisor(self):
@@ -72,7 +82,7 @@ class PackageRunner:
         # get the process attached to the thread
         package  = self.package_list[number]
 
-        print(f"Starting processing thread {number}")
+        self.logger.log(f"Starting processing thread {number}")
 
         time.sleep(1)
 
@@ -88,22 +98,21 @@ class PackageRunner:
             self.subprocess_list[process.pid] = process
             if package.isLeader():
                 try:
-                    with open(self.config["output_file"], 'a') as file:
-                        for line in process.stdout:
-                            #print(line, end='') # process line here
-                            if self.config["terminate"] in line:
-                                print("Killing Leader")
-                                file.write(line)
-                                self.is_shutdown = True
-                            if self.config["checkpoint"] in line:
-                                print("checkpoint reached")
-                                file.write(line)
+                    for line in process.stdout:
+                        #print(line, end='') # process line here
+                        if self.terminate in line:
+                            print("Killing Leader")
+                            self.logger.log(line)
+                            self.is_shutdown = True
+                        if self.checkpoint in line:
+                            print("checkpoint reached")
+                            self.logger.log(line)
                     print("File written successfully.")
                 except IOError:
                     print(f"Error writing to file example.txt.")
 
             else:
                 for line in process.stdout:
-                    if self.config["askToTerminate"] in line:
+                    if self.askToTerminate in line:
                         self.is_shutdown = True
                     #print(line, end='') # process line here

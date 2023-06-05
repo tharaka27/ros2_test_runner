@@ -8,7 +8,7 @@ from logger import Logger
 
 def main():
 
-    with open('config copy.json', 'r') as file:
+    with open('config.json', 'r') as file:
         config = json.load(file)
 
     testcase_list : List[Testcase] = []
@@ -22,6 +22,7 @@ def main():
     for testcase in testcase_list:
         logger.log("================================================================\n")
         logger.log(f"Starting {str(testcase)}" )
+        print(f"Starting {str(testcase)}" )
 
         runner = PackageRunner(testcase, logger)
         runner.run()

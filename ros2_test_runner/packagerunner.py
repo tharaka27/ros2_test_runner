@@ -3,7 +3,6 @@ import time
 import signal
 import threading
 import os
-import queue
 import sys
 from package import Package
 from testcase import Testcase
@@ -19,15 +18,13 @@ class PackageRunner:
         self.checkpoint = testcase.getCheckpoint()
         self.askToTerminate = testcase.getAskToTerminate()
         self.subprocess_list = {}
-        self.thread_list = []
-        self.lock = threading.Lock()
-        self.queue = queue.Queue()
+        self.threadList = []
         self.is_shutdown = False
         self.supervisor_thread = None
-        self.package_list : List[Package] = []
+        self.packageList : List[Package] = []
         self.logger = logger
         for package in testcase.getPackages():
-            self.package_list.append(package)
+            self.packageList.append(package)
         
 
     def signal_handler(self, sig, frame):
@@ -37,6 +34,7 @@ class PackageRunner:
                 os.killpg(os.getpgid(pid=pid), signal.SIGTERM)
             except Exception as e:
                 print(e)
+        self.logger.close()
         sys.exit(0)
 
     def run(self):
@@ -48,24 +46,30 @@ class PackageRunner:
             signal.signal(signal.SIGINT, self.signal_handler)
 
             # create threads for each process
-            for i in range(len(self.package_list)):
+            for i in range(len(self.packageList)):
                 thread = threading.Thread(target=self._launch_package, args=(i,))
                 thread.start()
                 time.sleep(3)
-                self.thread_list.append(thread)
+                self.threadList.append(thread)
 
             # start the execution of the supervisor thread
             self.supervisor_thread = threading.Thread(target=self._launch_supervisor)
             self.supervisor_thread.start()
 
             # wait till all the threads are joined
-            for i in range(len(self.thread_list)):
-                self.thread_list[i].join()
+            for i in range(len(self.threadList)):
+                self.threadList[i].join()
 
             # wait till the supervisor is joined
             self.supervisor_thread.join()
 
-        
+            # resetting values to start the new invocation
+            self.threadList = []
+            self.supervisor_thread = None
+            self.is_shutdown = False
+            self.subprocess_list = []
+            
+
     def _launch_supervisor(self):
         while(True):
             if self.is_shutdown:
@@ -80,7 +84,7 @@ class PackageRunner:
     
     def _launch_package(self, number: int):
         # get the process attached to the thread
-        package  = self.package_list[number]
+        package  = self.packageList[number]
 
         self.logger.log(f"Starting processing thread {number}")
 
@@ -102,11 +106,11 @@ class PackageRunner:
                         #print(line, end='') # process line here
                         if self.terminate in line:
                             print("Killing Leader")
-                            self.logger.log(line)
+                            self.logger.log(line, ends="")
                             self.is_shutdown = True
                         if self.checkpoint in line:
                             print("checkpoint reached")
-                            self.logger.log(line)
+                            self.logger.log(line, ends="")
                     print("File written successfully.")
                 except IOError:
                     print(f"Error writing to file example.txt.")

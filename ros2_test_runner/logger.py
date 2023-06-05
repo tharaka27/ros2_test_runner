@@ -5,9 +5,9 @@ class Logger:
         self.lock = threading.Lock()
         self.file = open(filename, "a")
     
-    def log(self, message):
+    def log(self, message, ends="\n"):
         with self.lock:
-            self.file.write(message + "\n")
+            self.file.write(message + ends)
 
     def close(self):
         self.file.close()

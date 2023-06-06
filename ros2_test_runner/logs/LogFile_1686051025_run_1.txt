@@ -1,0 +1,57 @@
+================================================================
+
+Starting testcase_baseline_10 with 7 number of invocations
+starting invocation 1/7
+Starting processing thread 0
+Starting processing thread 1
+starting invocation 2/7
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_baseline-3] [INFO] [1686051041.896794122] [benchmark_baseline]: [checkpoint] Starting the baseline processing with 10 cubes
+[benchmark_baseline-3] [INFO] [1686051059.214525017] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051076.934630511] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051098.263760503] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051117.065846469] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051134.725956048] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051153.853485414] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051172.254348148] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051190.464373431] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051209.304553384] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051228.123237086] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051248.834086556] [benchmark_baseline]: [terminate]
+starting invocation 3/7
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_baseline-3] [INFO] [1686051259.758848854] [benchmark_baseline]: [checkpoint] Starting the baseline processing with 10 cubes
+[benchmark_baseline-3] [INFO] [1686051277.094683281] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051296.833879855] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051315.064320827] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051333.597523778] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051353.954534423] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051371.253694012] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051389.265658033] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051415.944832340] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051434.556557604] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051452.774317004] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051472.309445515] [benchmark_baseline]: [terminate]
+starting invocation 4/7
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_baseline-3] [INFO] [1686051482.505533295] [benchmark_baseline]: [checkpoint] Starting the baseline processing with 10 cubes
+[benchmark_baseline-3] [INFO] [1686051501.148171233] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051520.086190224] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051539.326199680] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051557.646323501] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051578.476603242] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051600.095850845] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051625.056799908] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051642.765739375] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051661.976685540] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051680.980000573] [benchmark_baseline]: [checkpoint] Robot successful placing. Request to spawn a new cube 
+[benchmark_baseline-3] [INFO] [1686051699.725683859] [benchmark_baseline]: [terminate]
+starting invocation 5/7
+Starting processing thread 0
+Starting processing thread 1
+starting invocation 6/7
+Starting processing thread 0
+Starting processing thread 1

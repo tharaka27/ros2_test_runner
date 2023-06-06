@@ -36,6 +36,7 @@ class PackageRunner:
                 print(e)
         self.logger.close()
         sys.exit(0)
+        #return False
 
     def run(self):
         # set signal handler
@@ -67,7 +68,7 @@ class PackageRunner:
             self.threadList = []
             self.supervisor_thread = None
             self.is_shutdown = False
-            self.subprocess_list = []
+            self.subprocess_list = {}
             
 
     def _launch_supervisor(self):

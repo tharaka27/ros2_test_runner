@@ -8,7 +8,7 @@ from logger import Logger
 
 def main():
 
-    with open('config.json', 'r') as file:
+    with open('config_baseline.json', 'r') as file:
         config = json.load(file)
 
     testcase_list : List[Testcase] = []

@@ -1,6 +1,6 @@
 ================================================================
 
-Starting testcase_baseline_10 with 8 number of invocations
+Starting testcase_baseline_20 with 8 number of invocations
 starting invocation 1/8
 Starting processing thread 0
 Starting processing thread 1

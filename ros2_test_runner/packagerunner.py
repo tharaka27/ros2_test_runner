@@ -69,6 +69,9 @@ class PackageRunner:
             self.supervisor_thread = None
             self.is_shutdown = False
             self.subprocess_list = {}
+
+            # give time to close all the proccess
+            time.sleep(10)
             
 
     def _launch_supervisor(self):
@@ -104,7 +107,7 @@ class PackageRunner:
             if package.isLeader():
                 try:
                     for line in process.stdout:
-                        #print(line, end='') # process line here
+                        print(line, end='') # process line here
                         if self.terminate in line:
                             print("Killing Leader")
                             self.logger.log(line, ends="")
@@ -120,4 +123,4 @@ class PackageRunner:
                 for line in process.stdout:
                     if self.askToTerminate in line:
                         self.is_shutdown = True
-                    #print(line, end='') # process line here
+                    print(line, end='') # process line here

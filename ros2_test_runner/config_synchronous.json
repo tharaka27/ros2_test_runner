@@ -2,7 +2,7 @@
     "testcases" :
     [
         {
-            "name" : "testcase_baseline_1",
+            "name" : "testcase_synchronous_20",
             "numberOfInvocations": 1,
             "packages":[
                 {
@@ -14,7 +14,7 @@
                     }
                 },{
                     "name" : "paper_benchmarks",
-                    "launch" : "benchmark_baseline.launch.py",
+                    "launch" : "benchmark_synchronous.launch.py",
                     "leader" : true,
                     "ros_args" : {
                         "cubesToPick" : 20

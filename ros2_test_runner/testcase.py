@@ -2,7 +2,7 @@ from package import Package
 
 class Testcase:
     def __init__(self, name: str, numberOfInvocations: int, checkpoint: str, terminate:\
-                  str, askToTerminate:str, pre_commands:list, packages : Package, kill_processes : list):
+                  list, askToTerminate: list, pre_commands:list, packages : Package, kill_processes : list):
         self.name = name
         self.numberOfInvocations = numberOfInvocations
         self.packages = list(map( lambda package: Package(**package), packages )) #for package in packages 

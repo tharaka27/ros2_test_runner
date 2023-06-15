@@ -2,8 +2,8 @@
     "testcases" :
     [
         {
-            "name" : "testcase_asynchronous_20",
-            "numberOfInvocations": 1,
+            "name" : "testcase_asynchronous_30",
+            "numberOfInvocations": 10,
             "packages":[
                 {
                     "name" : "panda_moveit_config",
@@ -17,13 +17,19 @@
                     "launch" : "benchmark_asynchronous.launch.py",
                     "leader" : true,
                     "ros_args" : {
-                        "cubesToPick" : 20
+                        "cubesToPick" : 30
                     }
                 }
             ],
             "checkpoint" : "[checkpoint]",
-            "terminate" : "[terminate]",
-            "askToTerminate" : "source_frame - frame does not exist",
+            "terminate" : [
+                "[terminate]",
+                "Found a contact between"
+            ],
+            "askToTerminate" : [
+                "source_frame - frame does not exist", 
+                "Found a contact between"
+            ],
             "pre_commands" : [
                 "cd /home/ros/ws_moveit ",
                 ". install/setup.sh "

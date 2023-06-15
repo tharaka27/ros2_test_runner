@@ -1,0 +1,175 @@
+================================================================
+
+Starting testcase_asynchronous_30 with 10 number of invocations
+starting invocation 1/10
+Starting processing thread 0
+Starting processing thread 1
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2023-06-15-13-22-28-627954-rap-2023-319039
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2023-06-15-13-22-28-627954-rap-2023-319039
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2023-06-15-13-22-28-627954-rap-2023-319039
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2023-06-15-13-22-28-627954-rap-2023-319039
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2023-06-15-13-22-28-627954-rap-2023-319039
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2023-06-15-13-22-28-627954-rap-2023-319039
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2023-06-15-13-22-28-627954-rap-2023-319039
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2023-06-15-13-22-28-627954-rap-2023-319039
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2023-06-15-13-22-28-627954-rap-2023-319039
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch]: Default logging verbosity is set to INFO
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+['/home/ros/ws_moveit/install/panda_description/share/panda_description', 'scene', 'trays.scene']
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [moveit_publish_scene_from_text-1]: process started with pid [319040]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [create_scene-2]: process started with pid [319042]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[INFO] [benchmark_asynchronous-3]: process started with pid [319044]
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 1a80751f9c543f5f: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[create_scene-2] [37;1m2023-06-15 13:22:29.005 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 4c3ccdc7c055f623: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[moveit_publish_scene_from_text-1] [37;1m2023-06-15 13:22:29.030 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed to create segment 331c1d0afa896855: No such file or directory[34;1m -> Function [36mcompute_per_allocation_extra_size[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [37;1m2023-06-15 13:22:29.033 [31;1m[[37;1mRTPS_MSG_OUT[31;1m Error] [37mNo such file or directory[34;1m -> Function [36minit[m
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.045493606] [benchmark_asynchronous]: launch: euclideanDistance
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094447765] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0451644 seconds
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[benchmark_asynchronous-3] [INFO] [1686835349.094491300] [moveit_robot_model.robot_model]: Loading robot model 'panda'...

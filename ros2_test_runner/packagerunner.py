@@ -108,10 +108,11 @@ class PackageRunner:
                 try:
                     for line in process.stdout:
                         print(line, end='') # process line here
-                        if self.terminate in line:
-                            print("Killing Leader")
-                            self.logger.log(line, ends="")
-                            self.is_shutdown = True
+                        for terminate_line in self.terminate:
+                            if terminate_line in line:
+                                print("Killing Leader")
+                                self.logger.log(line, ends="")
+                                self.is_shutdown = True
                         if self.checkpoint in line:
                             print("checkpoint reached")
                             self.logger.log(line, ends="")
@@ -121,6 +122,7 @@ class PackageRunner:
 
             else:
                 for line in process.stdout:
-                    if self.askToTerminate in line:
-                        self.is_shutdown = True
+                    for terminate_line in self.askToTerminate: 
+                        if terminate_line in line:
+                            self.is_shutdown = True
                     print(line, end='') # process line here

@@ -2,7 +2,7 @@
     "testcases" :
     [
         {
-            "name" : "testcase_baseline_2",
+            "name" : "testcase_baseline_20",
             "numberOfInvocations": 1,
             "packages":[
                 {
@@ -17,7 +17,7 @@
                     "launch" : "benchmark_baseline.launch.py",
                     "leader" : true,
                     "ros_args" : {
-                        "cubesToPick" : 2
+                        "cubesToPick" : 20
                     }
                 }
             ],

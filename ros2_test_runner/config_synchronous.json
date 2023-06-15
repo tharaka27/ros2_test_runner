@@ -2,8 +2,8 @@
     "testcases" :
     [
         {
-            "name" : "testcase_synchronous_10",
-            "numberOfInvocations": 10,
+            "name" : "testcase_synchronous_20",
+            "numberOfInvocations": 1,
             "packages":[
                 {
                     "name" : "panda_moveit_config",
@@ -17,7 +17,7 @@
                     "launch" : "benchmark_synchronous.launch.py",
                     "leader" : true,
                     "ros_args" : {
-                        "cubesToPick" : 10
+                        "cubesToPick" : 20
                     }
                 }
             ],

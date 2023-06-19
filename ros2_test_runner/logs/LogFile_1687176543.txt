@@ -1,0 +1,63 @@
+================================================================
+
+Starting testcase_asynchronous_30 with 10 number of invocations
+starting invocation 1/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687176556.372470062] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687176556.382546420] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176557.061866597] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687176557.072183845] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176561.209876197] [benchmark_asynchronous]: [checkpoint] Starting grasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176561.790792313] [benchmark_asynchronous]: [checkpoint] Starting grasp robot_2
+[benchmark_asynchronous-3] [INFO] [1687176563.519891549] [benchmark_asynchronous]: [checkpoint] Starting premove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176564.000888992] [benchmark_asynchronous]: [checkpoint] Starting premove robot_2
+[benchmark_asynchronous-3] [INFO] [1687176569.646685350] [benchmark_asynchronous]: [checkpoint] Starting move robot_1
+[benchmark_asynchronous-3] [INFO] [1687176569.724606527] [benchmark_asynchronous]: [checkpoint] Starting move robot_2
+[benchmark_asynchronous-3] [INFO] [1687176576.675841872] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176577.771552501] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_2
+[benchmark_asynchronous-3] [INFO] [1687176578.986011937] [benchmark_asynchronous]: [checkpoint] Starting relsease Object robot_1
+[benchmark_asynchronous-3] [INFO] [1687176579.980684639] [benchmark_asynchronous]: [checkpoint] Starting relsease Object robot_2
+[benchmark_asynchronous-3] [INFO] [1687176582.098599902] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176583.196832215] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_2
+[benchmark_asynchronous-3] [INFO] [1687176585.412371492] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687176585.422002725] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176586.511026680] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687176586.522368643] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176590.746255812] [benchmark_asynchronous]: [checkpoint] Starting grasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176595.064170782] [benchmark_asynchronous]: [checkpoint] Starting premove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176595.672395121] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176597.791882065] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176602.610540651] [benchmark_asynchronous]: [checkpoint] Starting grasp robot_2
+[benchmark_asynchronous-3] [INFO] [1687176602.996023535] [benchmark_asynchronous]: [checkpoint] Starting move robot_1
+[benchmark_asynchronous-3] [INFO] [1687176607.028552459] [benchmark_asynchronous]: [checkpoint] Starting premove robot_2
+[benchmark_asynchronous-3] [INFO] [1687176610.226900634] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176612.636944870] [benchmark_asynchronous]: [checkpoint] Starting relsease Object robot_1
+[benchmark_asynchronous-3] [INFO] [1687176614.055776463] [benchmark_asynchronous]: [checkpoint] Starting move robot_2
+[benchmark_asynchronous-3] [INFO] [1687176615.950304879] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176618.763007866] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687176618.772391231] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176620.082083317] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_2
+[benchmark_asynchronous-3] [INFO] [1687176622.392868289] [benchmark_asynchronous]: [checkpoint] Starting relsease Object robot_2
+[benchmark_asynchronous-3] [INFO] [1687176624.200320015] [benchmark_asynchronous]: [checkpoint] Starting grasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176625.605834407] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_2
+[benchmark_asynchronous-3] [INFO] [1687176626.811780627] [benchmark_asynchronous]: [checkpoint] Starting premove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176628.618571194] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687176628.623034521] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176633.238201520] [benchmark_asynchronous]: [checkpoint] Starting move robot_1
+[benchmark_asynchronous-3] [INFO] [1687176634.749320355] [benchmark_asynchronous]: [checkpoint] Starting grasp robot_2
+[benchmark_asynchronous-3] [INFO] [1687176637.159806102] [benchmark_asynchronous]: [checkpoint] Starting premove robot_2
+[benchmark_asynchronous-3] [INFO] [1687176638.659951851] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176640.969767486] [benchmark_asynchronous]: [checkpoint] Starting relsease Object robot_1
+[benchmark_asynchronous-3] [INFO] [1687176643.780828410] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176643.886115709] [benchmark_asynchronous]: [checkpoint] Starting move robot_2
+[benchmark_asynchronous-3] [INFO] [1687176646.994843550] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687176647.002692824] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176650.442874469] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_2
+[benchmark_asynchronous-3] [INFO] [1687176651.925440137] [benchmark_asynchronous]: [checkpoint] Starting grasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176653.155801020] [benchmark_asynchronous]: [checkpoint] Starting relsease Object robot_2
+[benchmark_asynchronous-3] [INFO] [1687176653.934830703] [benchmark_asynchronous]: [checkpoint] Starting premove robot_1
+[benchmark_asynchronous-3] [INFO] [1687176656.367953891] [benchmark_asynchronous]: [checkpoint] Starting postmove robot_2
+[benchmark_asynchronous-3] [INFO] [1687176660.082513145] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687176660.092327011] [benchmark_asynchronous]: [checkpoint] Starting pregrasp robot_1
+[benchmark_asynchronous-3] [INFO] [1687176660.161663718] [benchmark_asynchronous]: [checkpoint] Starting move robot_1

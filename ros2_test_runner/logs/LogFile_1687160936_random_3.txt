@@ -1,0 +1,73 @@
+================================================================
+
+Starting testcase_synchronous_15 with 10 number of invocations
+starting invocation 1/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_synchronous-3] [INFO] [1687160943.677572087] [benchmark_synchronous]: [checkpoint]
+[benchmark_synchronous-3] [INFO] [1687160969.035511934] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687160969.035637565] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687160997.409679890] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687160997.409798533] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161028.323774983] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161028.323911645] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161064.394628716] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161064.394751351] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161098.101525248] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161098.101643643] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161128.165762736] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161128.165885550] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161156.739799031] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161156.739915914] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161189.073146673] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161189.073278880] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161214.314556066] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161214.314675745] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161261.554162622] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161261.554281771] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161325.524036511] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161325.524155975] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161355.526508415] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161355.526655688] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161404.863514776] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161404.863624905] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161439.177084800] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161439.177270415] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161471.990215435] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161471.990339669] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161471.990361685] [benchmark_synchronous]: [terminate]
+starting invocation 2/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_synchronous-3] [INFO] [1687161489.292521762] [benchmark_synchronous]: [checkpoint]
+[benchmark_synchronous-3] [INFO] [1687161517.358053606] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161517.358196277] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161552.766269112] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161552.766396530] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161583.622794400] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161583.622910920] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161611.498591667] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161611.498709221] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161644.673657971] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161644.673775208] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161676.052199991] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161676.052326627] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161704.309086161] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161704.309207635] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161729.154803110] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161729.154925068] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161763.791969185] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161763.792122622] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161792.744498895] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161792.744619795] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161826.443172387] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161826.443317002] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161855.837560688] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161855.837682138] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161887.645997959] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161887.646117699] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161922.634297300] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161922.634421604] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161954.563274102] [benchmark_synchronous]: [checkpoint] Robot 1 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161954.563393582] [benchmark_synchronous]: [checkpoint] Robot 2 successful placing. Request to spawn a new cube 
+[benchmark_synchronous-3] [INFO] [1687161954.563417592] [benchmark_synchronous]: [terminate]

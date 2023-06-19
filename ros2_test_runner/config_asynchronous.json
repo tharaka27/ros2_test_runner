@@ -23,12 +23,10 @@
             ],
             "checkpoint" : "[checkpoint]",
             "terminate" : [
-                "[terminate]",
-                "Found a contact between"
+                "[terminate]"
             ],
             "askToTerminate" : [
-                "source_frame - frame does not exist", 
-                "Found a contact between"
+                "source_frame - frame does not exist"
             ],
             "pre_commands" : [
                 "cd /home/ros/ws_moveit ",

@@ -1,0 +1,14 @@
+================================================================
+
+Starting testcase_asynchronous_30 with 10 number of invocations
+starting invocation 1/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687168120.440892948] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687168121.030903566] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687168144.956584890] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687168150.091797475] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687168170.176856455] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687168179.723852495] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687168216.599620360] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687168226.928449331] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 

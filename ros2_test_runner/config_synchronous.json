@@ -2,8 +2,8 @@
     "testcases" :
     [
         {
-            "name" : "testcase_synchronous_20",
-            "numberOfInvocations": 1,
+            "name" : "testcase_synchronous_15",
+            "numberOfInvocations": 10,
             "packages":[
                 {
                     "name" : "panda_moveit_config",
@@ -17,13 +17,17 @@
                     "launch" : "benchmark_synchronous.launch.py",
                     "leader" : true,
                     "ros_args" : {
-                        "cubesToPick" : 20
+                        "cubesToPick" : 30
                     }
                 }
             ],
             "checkpoint" : "[checkpoint]",
-            "terminate" : "[terminate]",
-            "askToTerminate" : "source_frame - frame does not exist",
+            "terminate" : [
+                "[terminate]"
+            ],
+            "askToTerminate" : [
+                "source_frame - frame does not exist"
+            ],
             "pre_commands" : [
                 "cd /home/ros/ws_moveit ",
                 ". install/setup.sh "

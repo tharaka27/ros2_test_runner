@@ -1,0 +1,361 @@
+================================================================
+
+Starting testcase_asynchronous_30 with 10 number of invocations
+starting invocation 1/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687004238.625120250] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687004239.225245119] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687004265.451707514] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004269.361492453] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004295.116231417] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004300.911839874] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004334.463149403] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004335.763732377] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004366.507513560] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004371.316197516] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004410.109862999] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004415.109253584] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004447.275809936] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004448.572861833] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004476.664102913] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004484.332178788] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004510.665679335] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004517.418647449] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004544.653780907] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004544.677200190] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004574.857904387] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004579.735169008] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004604.500247011] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004606.866333534] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004637.148756639] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004643.262582291] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004671.254536203] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004681.978325298] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004698.189625596] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004712.016662710] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004727.847659863] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004749.619582189] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004749.619692696] [benchmark_asynchronous]: [terminate]
+starting invocation 2/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687004774.078547191] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687004774.698212432] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687004800.728132990] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004802.003749962] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004827.548098224] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004833.145146287] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004863.584429741] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004874.200009758] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004889.600268802] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004903.431739775] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004916.231732953] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004940.951867926] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004942.523806902] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004969.281096843] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004971.756273739] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687004998.788718238] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005008.264338980] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005024.909415352] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005039.523375706] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005052.767705747] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005068.587600680] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005085.841646362] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005097.354583957] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005114.617127258] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005130.811320005] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005147.199401088] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005159.469768351] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005178.906160998] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005191.844243050] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005209.141084522] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005224.608630477] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005238.605224677] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005238.605346821] [benchmark_asynchronous]: [terminate]
+starting invocation 3/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687005262.537750534] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687005263.147721600] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687005289.261008546] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005290.280291187] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005319.402368701] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005322.863506979] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005349.941259554] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005359.278542750] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005374.859200242] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005389.928859078] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005401.589593274] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005420.567544308] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005426.519358893] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005455.752951878] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005460.646894863] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005482.795342924] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005489.776209831] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005508.713426707] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005515.989405855] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005536.548519521] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005543.723391655] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005565.388519337] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005576.668912023] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005601.168403136] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005613.174804382] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005627.287138219] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005645.338521964] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005669.790173651] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005672.471282040] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005697.521544005] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005703.216037854] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005741.224910678] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005741.225031600] [benchmark_asynchronous]: [terminate]
+starting invocation 4/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687005764.306731360] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687005764.906559436] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687005791.631992604] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005796.158663844] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005822.182284559] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005828.123206466] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005861.672570294] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005874.058188680] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005892.102029396] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005901.487536283] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005917.016744067] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005933.961755628] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005948.259971533] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005964.911247791] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005985.124040265] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687005996.978415860] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006014.574758147] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006034.581535359] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006041.791435884] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006064.820208638] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006067.246721935] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006096.587764674] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006098.885722456] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006128.862665133] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006137.603734636] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006159.397204579] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006168.172398873] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006197.334752068] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006202.667506753] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006228.478027818] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006240.440677374] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006262.148373254] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006262.148489640] [benchmark_asynchronous]: [terminate]
+starting invocation 5/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687006286.608200901] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687006287.208176292] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687006314.747277021] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006315.237529742] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006342.977786657] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006344.084428979] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006373.518119804] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006379.559207502] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006404.354061075] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006410.502800847] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006429.669868743] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006438.427554847] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006457.911960516] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006474.592887955] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006488.324670012] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006501.426791420] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006522.972514301] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006536.918683529] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006549.906044441] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006568.261968891] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006584.415493455] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006595.587039646] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006612.449407378] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006624.529211834] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006640.700408045] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006659.851211355] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006668.125124809] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006689.820105527] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006695.469913720] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006720.157102960] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006722.101476999] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006771.095952328] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006771.096077727] [benchmark_asynchronous]: [terminate]
+starting invocation 6/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687006794.490672669] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687006795.501046871] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687006821.710680072] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006822.835964428] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006852.286329913] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006856.881123538] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006881.563798214] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006887.621478002] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006912.299920463] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006913.838259841] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006944.154198891] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006949.990984311] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006978.735938598] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687006978.851072483] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007008.792145348] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007012.587030751] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007037.502511985] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007047.922956138] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007065.229965311] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007074.554117349] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007099.401740498] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007102.483311023] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007127.135941223] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007136.473817398] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007162.128568539] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007177.064191168] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007195.280059960] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007212.437115917] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007227.942065465] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007239.355571270] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007262.734187172] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007282.474848320] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007282.474964456] [benchmark_asynchronous]: [terminate]
+starting invocation 7/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687007305.794892033] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687007306.394627890] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687007332.832341052] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007335.036446519] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007358.549716113] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007365.388446444] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007393.627922770] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007402.152033643] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007424.410251259] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007429.772696739] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007449.221349040] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007456.883184371] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007475.641921085] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007488.641994216] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007501.988098451] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007520.812211141] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007531.361169103] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007551.784980850] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007559.418229969] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007578.726076061] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007584.957671141] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007606.366285481] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007615.905731249] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007641.132860475] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007658.816969659] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007672.587991600] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007690.607787920] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007702.325279407] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007719.049109942] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007740.533630070] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007744.298468327] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007777.924007509] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007777.924119813] [benchmark_asynchronous]: [terminate]
+starting invocation 8/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687007802.073463406] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687007802.692801584] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687007829.437971171] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007830.716750952] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007856.457342675] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007859.592913806] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007888.329553680] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007900.355162981] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007914.743013823] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007930.208177334] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007941.878502815] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007964.379010108] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007967.393521744] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007998.651795925] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687007999.888495900] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008031.857283241] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008041.351718705] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008071.656987864] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008071.698683175] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008099.826108191] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008105.657785043] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008125.573814721] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008139.508789721] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008162.916891778] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008169.245728853] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008192.558669381] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008193.789353694] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008221.212189383] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008231.196480550] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008246.066981097] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008259.837198435] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008283.058790408] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008283.058915878] [benchmark_asynchronous]: [terminate]
+starting invocation 9/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687008306.786134218] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687008307.385150999] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687008334.521679579] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008341.961640966] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008359.019293577] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008380.077117873] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008396.241066496] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008408.627994557] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008433.854197501] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008436.314803164] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008463.787330054] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008468.908971766] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008491.818466994] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008510.794306852] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008520.449562378] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008538.722641739] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008557.948913981] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008572.979590598] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008596.037196811] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008603.537713162] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008632.206875651] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008647.967950212] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008664.955000723] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008676.699574017] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008691.479273048] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008708.491981888] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008717.298062715] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008735.814873162] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008749.054662186] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008765.354018594] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008799.395573643] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008858.039731200] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008858.039813193] [benchmark_asynchronous]: [terminate]
+starting invocation 10/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_asynchronous-3] [INFO] [1687008881.310820221] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687008881.920541863] [benchmark_asynchronous]: [checkpoint] Starting execution
+[benchmark_asynchronous-3] [INFO] [1687008906.834405774] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008910.349217700] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008932.550193933] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008939.195519062] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008971.274507353] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008971.938189743] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687008999.455547129] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009005.552408969] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009030.190366330] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009031.869171275] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009060.302014731] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009061.743502384] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009086.341242678] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009096.899418863] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009119.216366746] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009131.761987640] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009148.742842505] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009169.868785605] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009177.087570638] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009206.429680350] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009207.834069314] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009231.353352141] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009239.984811004] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009259.081274991] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009284.101293715] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009290.728969523] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009326.303638255] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009345.996524407] [benchmark_asynchronous]: [checkpoint] {robot_1} successful placing. Request to spawn a new cube 
+[benchmark_asynchronous-3] [INFO] [1687009376.132408858] [benchmark_asynchronous]: [checkpoint] {robot_2} successful placing. Request to spawn a new cube 

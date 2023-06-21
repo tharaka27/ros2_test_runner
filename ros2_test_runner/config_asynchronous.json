@@ -2,7 +2,7 @@
     "testcases" :
     [
         {
-            "name" : "testcase_asynchronous_30",
+            "name" : "testcase_asynchronous_20",
             "numberOfInvocations": 10,
             "packages":[
                 {
@@ -17,7 +17,7 @@
                     "launch" : "benchmark_asynchronous.launch.py",
                     "leader" : true,
                     "ros_args" : {
-                        "cubesToPick" : 30
+                        "cubesToPick" : 20
                     }
                 }
             ],

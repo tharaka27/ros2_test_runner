@@ -10,8 +10,8 @@ import threading
 
 def main():
 
-    #with open('config_asynchronous.json', 'r') as file:
-    with open('config_synchronous.json', 'r') as file:
+    with open('config_asynchronous.json', 'r') as file:
+    #with open('config_synchronous.json', 'r') as file:
     #with open('config_baseline.json', 'r') as file:
         config = json.load(file)
 

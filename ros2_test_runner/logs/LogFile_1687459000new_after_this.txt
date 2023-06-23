@@ -1,0 +1,5 @@
+times 6s
+seed back to 0
+distance 15cm
+starting 5 cubes
+spawn 4 cubes if less than 4 cubes

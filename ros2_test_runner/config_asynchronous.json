@@ -2,7 +2,7 @@
     "testcases" :
     [
         {
-            "name" : "testcase_asynchronous_20",
+            "name" : "testcase_asynchronous_12",
             "numberOfInvocations": 10,
             "packages":[
                 {

@@ -2,7 +2,7 @@
     "testcases" :
     [
         {
-            "name" : "testcase_synchronous_24_6_without_recovery",
+            "name" : "testcase_synchronous_28_6_without_recovery",
             "numberOfInvocations": 10,
             "packages":[
                 {
@@ -17,7 +17,7 @@
                     "launch" : "benchmark_synchronous.launch.py",
                     "leader" : true,
                     "ros_args" : {
-                        "cubesToPick" : 24
+                        "cubesToPick" : 28
                     }
                 }
             ],

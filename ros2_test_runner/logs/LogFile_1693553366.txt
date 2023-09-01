@@ -1,0 +1,8 @@
+================================================================
+
+Starting testcase_asynchronous_12_10_without_recovery with 10 number of invocations
+starting invocation 1/10
+Starting processing thread 0
+Starting processing thread 1
+[benchmark_baseline-3] [INFO] [1693553373.102795313] [benchmark_synchronous]: [checkpoint]
+[benchmark_baseline-3] [INFO] [1693553379.040768897] [benchmark_baseline]: [terminate] attach success

@@ -2,8 +2,8 @@
     "testcases" :
     [
         {
-            "name" : "testcase_baseline_20_10",
-            "numberOfInvocations": 10,
+            "name" : "testcase_baseline_20_7_5",
+            "numberOfInvocations": 1,
             "packages":[
                 {
                     "name" : "panda_moveit_config",
